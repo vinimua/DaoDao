@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: transparent;
+      font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+    }
+    #drag-bar {
+      height: 10px;
+      cursor: grab;
+      -webkit-app-region: drag;
+      margin-bottom: 2px;
+      border-radius: 2px;
+    }
+    #drag-bar:active { cursor: grabbing; }
+    #input-row {
+      display: flex;
+      align-items: flex-start;
+      border: 1px solid #5E4E3A;
+      background: #2C2416;
+      padding: 4px 8px;
+    }
+    #thought-input {
+      flex: 1;
+      min-width: 0;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #F5F0E8;
+      font-size: 14px;
+      font-family: inherit;
+      resize: none;
+      overflow: hidden;
+      line-height: 1.4;
+      padding: 0;
+    }
+    #thought-input::placeholder {
+      color: #8A7A6A;
+    }
+    #command-box {
+      width: 320px;
+      min-height: 120px;
+      background: #201A14;
+      border: 1px solid #8B7355;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.42);
+      padding: 4px 8px 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    #hint-text {
+      flex: none;
+      font-size: 11px;
+      color: #9E8B73;
+      margin-left: 8px;
+      white-space: nowrap;
+    }
+    #result-panel {
+      flex: 1;
+      min-height: 0;
+      color: #D8CBB8;
+      font-size: 12px;
+      line-height: 1.45;
+      overflow: hidden;
+    }
+    #result-panel[data-state="empty"] {
+      color: #8A7A6A;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 3px;
+      font-size: 13px;
+    }
+    .shortcut-line {
+      color: #6B5D4B;
+      font-size: 11px;
+    }
+    #result-panel[data-state="error"] {
+      color: #F1A38F;
+    }
+    .today-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .today-item {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: #E9DDCC;
+    }
+    .today-meta {
+      color: #9E8B73;
+      margin-right: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div id="command-box">
+    <div id="drag-bar"></div>
+    <div id="input-row">
+      <textarea id="thought-input" placeholder="记念头，或 /today /delete N /hide" autofocus rows="1"></textarea>
+      <span id="hint-text">Enter</span>
+    </div>
+    <div id="result-panel" data-state="empty">
+        <div>直接输入 → 记录念头</div>
+        <div>/today → 查看今日念头</div>
+        <div>/delete N → 删除第 N 条</div>
+        <div>/hide → 隐藏道道</div>
+      </div>
+  </div>
+  <script src="quick-input.js"></script>
+</body>
+</html>

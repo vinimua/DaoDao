@@ -1,0 +1,15 @@
+{
+  "id": "jacob",
+  "name": "Jacob",
+  "states": {
+    "idle": ["jacob-idle.svg"],
+    "hover": ["jacob-idle.svg"],
+    "input_open": ["jacob-idle.svg"],
+    "receiving": ["jacob-idle.svg"],
+    "storing": ["jacob-idle.svg"],
+    "reviewing": ["jacob-idle.svg"],
+    "quiet": ["jacob-idle.svg"],
+    "hidden": ["jacob-idle.svg"],
+    "error_hint": ["jacob-idle.svg"]
+  }
+}

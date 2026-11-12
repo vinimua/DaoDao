@@ -1,0 +1,1921 @@
+
+> dao-dao@0.1.0 start
+> node launch.js
+
+
+[shortcut] registered: CommandOrControl+Alt+T
+[pet-window] hit window loaded { x: 1427, y: 739, width: 263, height: 263 }
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] Jacob 3D render window loaded',
+  line: 529,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window] render window loaded { x: 1427, y: 739, width: 263, height: 263 }
+[pet-window:renderer] {
+  level: 2,
+  message: 'THREE.FBXLoader: Vertex has more than 4 skinning weights assigned to vertex. Deleting additional weights.',
+  line: 2034,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/node_modules/three/examples/jsm/loaders/FBXLoader.js'
+}
+[pet-window:renderer] {
+  level: 2,
+  message: 'THREE.FBXLoader: Vertex has more than 4 skinning weights assigned to vertex. Deleting additional weights.',
+  line: 2034,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/node_modules/three/examples/jsm/loaders/FBXLoader.js'
+}
+[pet-window:renderer] {
+  level: 2,
+  message: 'THREE.FBXLoader: Vertex has more than 4 skinning weights assigned to vertex. Deleting additional weights.',
+  line: 2034,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/node_modules/three/examples/jsm/loaders/FBXLoader.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] Jacob model framed {"originalSize":{"x":1343.1,"y":233.6,"z":1343.1},"scale":0.0077,"offsetY":-0.063}',
+  line: 193,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] mesh names: JacobMedieval-Shirt, Jacob, JacobMedieval-Cloak, JacobMedieval-Claymore, JacobMedieval-Pauldron, Rocks, Ground, JacobMedieval-Pants, JacobMedieval-ShirtBonds, JacobMedieval-Boots, JacobOutline, JacobMedieval-Belt, Grass',
+  line: 273,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   JacobMedieval-Shirt: [Outline,Jacob_PropsAtlas] geo=1460 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   Jacob: [Jacob_Body,Outline] geo=3672 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   JacobMedieval-Cloak: [Outline,Jacob_PropsAtlas] geo=640 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   JacobMedieval-Claymore: [Outline,Jacob_PropsAtlas] geo=1996 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   JacobMedieval-Pauldron: [Outline,Jacob_PropsAtlas] geo=432 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   Rocks: [SceneAtlas] geo=480 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   Ground: [SceneAtlas] geo=32 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   JacobMedieval-Pants: [Outline,Jacob_PropsAtlas] geo=908 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   JacobMedieval-ShirtBonds: [Outline,Jacob_PropsAtlas] geo=240 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   JacobMedieval-Boots: [Outline,Jacob_PropsAtlas] geo=520 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   JacobOutline: [Jacob_Body,Outline] geo=3592 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   JacobMedieval-Belt: [Outline,Jacob_PropsAtlas] geo=432 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer]   Grass: [SceneAtlas] geo=36 tris',
+  line: 274,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] 13 outline hidden, toon=5 sword=1 leather=3',
+  line: 413,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] untextured materials: JacobMedieval-Pauldron:Jacob_PropsAtlas',
+  line: 415,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] model loaded: 14 children, 2 animations',
+  line: 418,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=544 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=1265 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=1986 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=2707 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=3428 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=4149 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=4870 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=5591 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=6312 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=7033 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=7753 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=8474 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=9195 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=9916 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=10637 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=11358 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=12079 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=12800 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=13521 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=14242 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=14963 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=15684 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=16405 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=17126 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=17847 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=18568 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=19289 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=20010 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=20731 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=21452 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=22173 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=22894 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=23615 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=24336 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=25057 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=25778 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=26499 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=27220 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=27941 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=28662 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=29383 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=30104 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=30825 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=31546 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=32267 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=32988 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=33709 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=34430 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=35151 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=35872 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=36593 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[otter] idle → input_open (quick_input_opened)
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=37309 state=input_open hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[otter] input_open → idle (quick_input_closed)
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=38030 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=38751 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=39472 state=idle hasModel=true loadFailed=false stageSize=262x262',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=40192 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] animation paused',
+  line: 525,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=40912 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=41633 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=42354 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=43075 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=43796 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=44517 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=45238 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=45959 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=46680 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=47401 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=48121 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=48842 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=49563 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=50284 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=51005 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=51726 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=52447 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=53168 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=53889 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=54610 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=55331 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=56052 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=56773 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=57494 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=58215 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=58936 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=59657 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=60378 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=61099 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=61820 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=62541 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=63262 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=63983 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=64704 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=65424 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=66145 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=66866 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=67587 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=68307 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=69028 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=69749 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=70470 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=71191 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=71912 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=72633 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=73354 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=74075 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=74796 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=75517 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=76238 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=76959 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=77680 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=78401 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=79117 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=79838 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=80559 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=81280 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=82001 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=82722 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=83443 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=84164 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=84885 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=85606 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=86327 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=87048 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=87769 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=88490 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=89211 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=89932 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=90653 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=91374 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=92095 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=92816 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=93537 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=94258 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=94979 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=95700 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=96421 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=97142 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=97863 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=98584 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=99305 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=100026 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=100747 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=101468 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=102189 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=102910 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=103631 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=104352 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=105073 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=105794 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=106515 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=107236 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=107957 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=108677 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=109398 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=110119 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=110840 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=111561 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=112282 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=113002 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=113723 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=114444 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=115165 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=115886 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=116607 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=117328 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=118049 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=118770 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=119491 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=120211 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=120932 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=121653 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=122374 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=123095 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=123816 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=124537 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=125258 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=125979 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=126700 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=127421 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=128142 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=128863 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=129584 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=130305 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=131026 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=131747 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=132468 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=133189 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=133910 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=134631 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=135352 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=136072 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=136793 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=137514 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=138233 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=138954 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=139675 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=140396 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=141117 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=141838 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=142559 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=143280 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=144001 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=144722 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=145442 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=146163 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=146884 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=147605 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=148326 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=149047 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=149768 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=150489 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=151210 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=151931 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=152652 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=153373 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=154094 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=154815 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=155536 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=156257 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=156978 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=157699 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=158420 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=159141 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=159860 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=160580 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=161301 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=162022 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=162743 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=163463 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=164184 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=164905 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=165626 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=166347 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=167068 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=167789 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=168510 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=169231 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=169952 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=170673 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=171394 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=172115 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=172836 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=173557 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=174278 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=174999 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=175719 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=176440 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=177161 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=177882 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=178603 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=179324 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=180045 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=180766 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=181487 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=182208 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=182929 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=183650 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=184371 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=185092 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=185813 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=186534 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=187255 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=187976 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=188697 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=189418 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=190139 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=190860 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=191581 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=192299 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=193020 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=193741 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=194462 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=195183 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=195904 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=196625 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=197346 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=198067 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=198788 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=199509 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=200230 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=200951 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=201672 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=202393 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=203114 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=203835 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=204556 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=205277 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=205998 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=206719 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=207440 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=208161 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=208881 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=209602 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=210323 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=211044 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=211765 state=idle hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[otter] idle → input_open (quick_input_opened)
+[pet-window:renderer] {
+  level: 1,
+  message: '[renderer] alive frame=212485 state=input_open hasModel=true loadFailed=false stageSize=260x260',
+  line: 483,
+  sourceId: 'file:///C:/ZhuoChong/thought-otter/src/renderer.js'
+}
+[otter] input_open → idle (quick_input_closed)
+[shortcut] unregistered: CommandOrControl+Alt+T

@@ -1,0 +1,15 @@
+{
+  "id": "otter",
+  "name": "Thought Otter",
+  "states": {
+    "idle":       ["otter-idle.svg"],
+    "hover":      ["otter-idle.svg"],
+    "input_open": ["otter-idle.svg"],
+    "receiving":  ["otter-idle.svg"],
+    "storing":    ["otter-idle.svg"],
+    "reviewing":  ["otter-idle.svg"],
+    "quiet":      ["otter-idle.svg"],
+    "hidden":     ["otter-idle.svg"],
+    "error_hint": ["otter-idle.svg"]
+  }
+}

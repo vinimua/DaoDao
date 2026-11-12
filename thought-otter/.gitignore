@@ -1,0 +1,23 @@
+node_modules/
+dist/
+out/
+
+# Electron build artifacts
+*.exe
+*.dmg
+*.AppImage
+*.deb
+
+# Data directory (auto-generated at runtime)
+data/
+
+# Backup files
+*.bak
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

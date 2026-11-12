@@ -1,0 +1,57 @@
+{
+  "name": "dao-dao",
+  "version": "0.1.0",
+  "description": "念头道道 DaoDao - 常驻桌面的轻量级念头捕捉工具",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node launch.js",
+    "test": "node test/launch-tests.js",
+    "build": "npx electron-builder --win",
+    "test:phase3": "node test/phase3-prefs.test.js",
+    "test:phase5": "node test/phase5-quick-input.test.js"
+  },
+  "build": {
+    "appId": "com.daodao.desktop",
+    "productName": "道道",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**",
+      "assets/**",
+      "launch.js",
+      "!src/**/*.test.js"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/Jacob/assets/jacob-icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "language": "2052",
+      "unicode": true
+    },
+    "asarUnpack": [
+      "node_modules/better-sqlite3/**"
+    ]
+  },
+  "keywords": [
+    "dao-dao",
+    "desktop-pet",
+    "electron",
+    "productivity"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@electron/rebuild": "^4.0.4",
+    "electron": "^41.0.2",
+    "electron-builder": "^26.15.3"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "three": "^0.185.0"
+  }
+}

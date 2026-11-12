@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 100%;
+      min-height: 100%;
+      background: #181512;
+      color: #E6D8C5;
+      font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+      font-size: 13px;
+      user-select: none;
+    }
+    body { padding: 16px; }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #3A3024;
+    }
+    h1 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    button {
+      border: 1px solid #6A5840;
+      background: #2A241B;
+      color: #E6D8C5;
+      border-radius: 4px;
+      padding: 6px 12px;
+      font: inherit;
+      cursor: pointer;
+    }
+    button:hover { background: #3A3024; }
+    button.primary {
+      background: #6B5431;
+      border-color: #8A7048;
+    }
+    main {
+      display: grid;
+      gap: 12px;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 12px;
+      align-items: center;
+      min-height: 36px;
+    }
+    label {
+      color: #AD9B84;
+      white-space: nowrap;
+    }
+    input[type="text"], input[type="number"] {
+      width: 100%;
+      border: 1px solid #4A3D2D;
+      background: #221D17;
+      color: #F0E4D2;
+      border-radius: 4px;
+      padding: 7px 9px;
+      font: inherit;
+      outline: none;
+    }
+    input[type="text"]:focus, input[type="number"]:focus {
+      border-color: #9A7A4A;
+    }
+    .size-control {
+      display: grid;
+      grid-template-columns: 1fr 68px;
+      gap: 10px;
+      align-items: center;
+    }
+    input[type="range"] {
+      width: 100%;
+      accent-color: #9A7A4A;
+    }
+    .check-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #E6D8C5;
+    }
+    .check-row input {
+      width: 16px;
+      height: 16px;
+      accent-color: #9A7A4A;
+    }
+    .hint {
+      margin-top: 4px;
+      color: #82725F;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid #3A3024;
+    }
+    #status {
+      color: #9F8D78;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    #status.ok { color: #9FD09A; }
+    #status.error { color: #E08A7A; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>设置</h1>
+    <button id="close-btn" type="button">关闭</button>
+  </header>
+
+  <main>
+    <div class="row">
+      <label for="shortcut">快捷键</label>
+      <div>
+        <input id="shortcut" type="text" spellcheck="false" autocomplete="off">
+        <div class="hint">示例：CommandOrControl+Alt+T</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <label for="size-range">道道尺寸</label>
+      <div class="size-control">
+        <input id="size-range" type="range" min="24" max="720" step="1">
+        <input id="size-number" type="number" min="24" max="720" step="1">
+      </div>
+    </div>
+
+    <div class="row">
+      <label for="review-times">回顾时间</label>
+      <div>
+        <input id="review-times" type="text" spellcheck="false" autocomplete="off">
+        <div class="hint">用逗号分隔，例如：10:30, 16:00</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <label>开机自启</label>
+      <div class="check-row">
+        <input id="open-at-login" type="checkbox">
+        <span>启动系统时自动打开</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <label for="hover-preview">悬浮随记</label>
+      <div>
+        <label class="check-row">
+          <input id="hover-preview" type="checkbox">
+          <span>鼠标悬停时显示随记</span>
+        </label>
+        <div class="hint">关闭后不再弹出悬浮预览，仍可双击道道查看随记。</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div id="status">加载中...</div>
+    <button id="save-btn" class="primary" type="button">保存</button>
+  </footer>
+
+  <script src="settings.js"></script>
+</body>
+</html>
